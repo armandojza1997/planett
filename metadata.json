@@ -1,0 +1,8 @@
+{
+  "name": "Remix Planet Talent",
+  "description": "Agencia de Modelos #1 de Cuba. Descubre nuestro catálogo oficial.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

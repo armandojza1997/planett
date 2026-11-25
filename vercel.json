@@ -1,0 +1,36 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/api/seo-page?page=casting"
+    },
+    {
+      "source": "/casting",
+      "destination": "/api/seo-page?page=casting"
+    },
+    {
+      "source": "/casting/",
+      "destination": "/api/seo-page?page=casting"
+    },
+    {
+      "source": "/bailarines",
+      "destination": "/api/seo-page?page=bailarines"
+    },
+    {
+      "source": "/bailarines/",
+      "destination": "/api/seo-page?page=bailarines"
+    },
+    {
+      "source": "/completar",
+      "destination": "/api/seo-page?page=completar"
+    },
+    {
+      "source": "/completar/",
+      "destination": "/api/seo-page?page=completar"
+    },
+    {
+      "source": "/((?!api/|.*\\.).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
